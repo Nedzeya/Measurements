@@ -13,6 +13,12 @@
 ## Since there is no real sensor, SensorImitator acts as a sensor.
 #
 ## The SensorImitator sends 10 requests with random temperatures and "rain" statuses to the REST API Measurements. After that, a temperature chart is generated using the data received from the server.
+### Console:
+![File_of_console](documents/pictures/console.png)
+#
+### Chart:
+![File_of_chart](documents/pictures/chart.png)
+#
 #
 *** Sensor names must not be repeated, the sensor name must not be blank or contain less than 3 or more than 30 characters.
 All fields of a measurement are validated:
